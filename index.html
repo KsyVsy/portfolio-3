@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио автодизайнера | Владислав Тимошкин</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="menu-button" id="menuButton" onclick="toggleMenu()">☰</div>
+    <div class="logo">auto design</div>
+    <nav>
+        <a href="#about">Обо мне</a>
+        <a href="#design">Философия</a>
+        <a href="#skills">Навыки</a>
+        <a href="#process">Процесс</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+</header>
+
+<aside id="sidebar">
+    <a href="#about" onclick="toggleMenu()">Обо мне</a>
+    <a href="#design" onclick="toggleMenu()">Философия</a>
+    <a href="#skills" onclick="toggleMenu()">Навыки</a>
+    <a href="#process" onclick="toggleMenu()">Процесс</a>
+    <a href="#portfolio" onclick="toggleMenu()">Портфолио</a>
+    <a href="#contact" onclick="toggleMenu()">Контакты</a>
+</aside>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Automotive Concept Design</h1>
+        <p>Современные концепты автомобилей, разработанные Владиславом Тимошкиным</p>
+        <a href="#portfolio"><button>Смотреть проекты</button></a>
+    </div>
+    <div class="scroll-indicator"><span></span></div>
+</section>
+
+<section id="about" class="fade-in">
+    <h1>Обо мне</h1>
+    <p>Меня зовут Владислав Тимошкин. Я занимаюсь разработкой концептов автомобилей и автомобильным дизайном. Основная цель моей работы — создание современных и технологичных автомобилей, которые сочетают эстетику, аэродинамику и инновационные решения.</p>
+</section>
+
+<section id="design" class="fade-in">
+    <h1>Философия дизайна</h1>
+    <p>Современный автомобильный дизайн представляет собой сочетание инженерных решений, эстетики и технологичных инноваций. При разработке концептов я стремлюсь создавать гармоничные формы, сочетающие динамику и современный стиль.</p>
+    <p>Особое внимание уделяется пропорциям кузова, линиям света и взаимодействию формы автомобиля с окружающей средой.</p>
+</section>
+
+<section id="skills" class="fade-in">
+    <h1>Профессиональные навыки</h1>
+    <div class="stats">
+        <div class="stat">
+            <span class="number" data-target="12">0</span>
+            <p>Разработанных концептов</p>
+        </div>
+        <div class="stat">
+            <span class="number" data-target="8">0</span>
+            <p>Дизайн-проектов</p>
+        </div>
+        <div class="stat">
+            <span class="number" data-target="3">0</span>
+            <p>Года опыта</p>
+        </div>
+    </div>
+    <div class="detail" style="margin-top: 25px;">
+        <h3>3D моделирование</h3>
+        <p>Создание трёхмерных моделей автомобилей и концептов.</p>
+    </div>
+    <div class="detail">
+        <h3>Концепт и разработка</h3>
+        <p>Создание автомобилей будущего.</p>
+    </div>
+</section>
+
+<section id="process" class="fade-in">
+    <h1>Этапы разработки автомобиля</h1>
+    <div class="process">
+        <div class="step">
+            <h3>1. Исследование</h3>
+            <p>Анализ современных тенденций автомобильного дизайна.</p>
+        </div>
+        <div class="step">
+            <h3>2. Эскизы</h3>
+            <p>Создание первоначальных концептов и идей автомобиля.</p>
+        </div>
+        <div class="step">
+            <h3>3. 3D моделирование</h3>
+            <p>Разработка цифровой модели автомобиля.</p>
+        </div>
+        <div class="step">
+            <h3>4. Финальный дизайн</h3>
+            <p>Подготовка финальной визуализации проекта.</p>
+        </div>
+    </div>
+</section>
+<section id="details" class="fade-in">
+    <h1>Ключевые элементы дизайна</h1>
+    <div class="gallery">
+        <div class="card">
+            <h3>Аэродинамический кузов</h3>
+            <p>Форма кузова играет важную роль в снижении сопротивления воздуха и улучшении динамики.</p>
+        </div>
+        <div class="card">
+            <h3>Современная оптика</h3>
+            <p>Использование LED-фар позволяет создать уникальный световой стиль автомобиля.</p>
+        </div>
+        <div class="card">
+            <h3>Интерьер</h3>
+            <p>Современные автомобили требуют продуманного интерьера и удобного управления.</p>
+        </div>
+    </div>
+</section>
+
+<section id="technology" class="fade-in">
+    <h1>Используемые технологии</h1>
+    <p>Современные концепты создаются с использованием технологий компьютерного моделирования.</p>
+    <ul>
+        <li>3D моделирование</li>
+        <li>Цифровая визуализация</li>
+        <li>Аэродинамическое моделирование</li>
+        <li>Интерактивные презентации</li>
+    </ul>
+</section>
+
+<section id="portfolio" class="fade-in">
+    <h1>Мои проекты</h1>
+    <div class="cars-grid">
+        <div class="car-card">
+            <img src="images/car1.jpg" alt="Concept Sport X">
+            <h3>Concept Sport X</h3>
+            <p>Современный спортивный концепт с агрессивным дизайном и улучшенной аэродинамикой.</p>
+        </div>
+        <div class="car-card">
+            <img src="images/car2.jpg" alt="Electric Vision">
+            <h3>Electric Vision</h3>
+            <p>Концепт электрического автомобиля будущего с упором на экологичность.</p>
+        </div>
+        <div class="car-card">
+            <img src="images/car3.jpg" alt="Urban Concept">
+            <h3>Urban Concept</h3>
+            <p>Компактный городской автомобиль для комфортного передвижения по мегаполису.</p>
+        </div>
+    </div>
+</section>
+
+<section id="future" class="fade-in">
+    <h1>Будущие проекты</h1>
+    <p>В дальнейшем планируется разработка новых концептов электрических и автономных автомобилей, так же и автономное производство как и для города, так и для трека, все испытания проводятся в специально отведенных местах.</p>
+</section>
+
+<section id="contact" class="fade-in">
+    <h1>Контакты</h1>
+    <p><strong>Имя:</strong> Владислав Тимошкин</p>
+    <p><strong>Email:</strong> vladtimoshkin1@gmail.com</p>
+    <p>Если вы заинтересованы в сотрудничестве или хотите узнать больше о моих проектах, свяжитесь со мной или посмотрите их на GitHub.</p>
+    <button onclick="showMessage()">Связаться</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
